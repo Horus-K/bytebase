@@ -56,7 +56,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            bytebase/bytebase:${{ env.RELEASE_VERSION }}
+            fscx/bytebase:${{ env.RELEASE_VERSION }}
           build-args: |
             VERSION=${{ env.RELEASE_VERSION }}
             GIT_COMMIT=${{ env.GIT_COMMIT }}
